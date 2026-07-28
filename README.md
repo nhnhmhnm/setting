@@ -29,10 +29,7 @@
 
 ### 3-1. 현재 위치 확인
 
-```bash
-$ pwd
-/home/namnam
-```
+<img width="1418" height="78" alt="스크린샷 2026-07-28 172515" src="https://github.com/user-attachments/assets/97542814-8cff-4985-8d2d-541cc5a661b6" />
 
 `pwd` 명령어를 사용하여 현재 작업 중인 디렉토리 위치를 확인했다.
 
@@ -40,12 +37,7 @@ $ pwd
 
 ### 3-2. 작업 디렉토리 생성 및 이동
 
-```bash
-$ mkdir codyssey
-$ cd codyssey
-$ pwd
-/home/namnam/codyssey
-```
+<img width="1410" height="154" alt="스크린샷 2026-07-28 172627" src="https://github.com/user-attachments/assets/0289a7ea-4969-475c-a168-c2aaab68e4f0" />
 
 `mkdir` 명령어로 `codyssey` 디렉토리를 생성했고, `cd` 명령어로 해당 디렉토리로 이동했다.
 
@@ -53,18 +45,11 @@ $ pwd
 
 ### 3-3. 디렉토리 목록 확인
 
-```bash
-$ ls
-```
+<img width="1418" height="36" alt="스크린샷 2026-07-28 172854" src="https://github.com/user-attachments/assets/8a866237-98f7-4396-bf3f-213d7256f622" />
 
 처음 생성한 디렉토리였기 때문에 출력되는 파일이나 폴더가 없었다.
 
-```bash
-$ ls -la
-total 8
-drwxr-xr-x  2 namnam namnam 4096 Jul 28 14:08 .
-drwxr-x--- 10 namnam namnam 4096 Jul 28 14:08 ..
-```
+<img width="1400" height="156" alt="스크린샷 2026-07-28 172929" src="https://github.com/user-attachments/assets/5d5b4c77-32b5-484e-b28c-82735f8b3fde" />
 
 `ls -la` 명령어를 사용하여 숨김 항목을 포함한 상세 목록을 확인했다.
 
@@ -75,15 +60,7 @@ drwxr-x--- 10 namnam namnam 4096 Jul 28 14:08 ..
 
 ### 3-4. 하위 디렉토리 생성 및 이동
 
-```bash
-$ mkdir week1
-$ ls
-week1
-
-$ cd week1
-$ pwd
-/home/namnam/codyssey/week1
-```
+<img width="1420" height="236" alt="image" src="https://github.com/user-attachments/assets/82c0a168-26c8-4c44-8e51-1425107b4197" />
 
 `week1` 디렉토리를 생성하고 해당 디렉토리로 이동했다.
 
@@ -91,14 +68,7 @@ $ pwd
 
 ### 3-5. 파일 생성
 
-```bash
-$ touch hello.txt
-$ ls -la
-total 8
-drwxr-xr-x 2 namnam namnam 4096 Jul 28 14:17 .
-drwxr-xr-x 3 namnam namnam 4096 Jul 28 14:09 ..
--rw-r--r-- 1 namnam namnam    0 Jul 28 14:17 hello.txt
-```
+<img width="1178" height="198" alt="image" src="https://github.com/user-attachments/assets/44392b14-4f61-4e56-b3b9-5adcef4f95c1" />
 
 `touch` 명령어를 사용하여 빈 파일 `hello.txt`를 생성했다.
 
@@ -106,11 +76,7 @@ drwxr-xr-x 3 namnam namnam 4096 Jul 28 14:09 ..
 
 ### 3-6. 파일 내용 작성 및 확인
 
-```bash
-$ echo "Hello World" > hello.txt
-$ cat hello.txt
-Hello World
-```
+<img width="1176" height="102" alt="image" src="https://github.com/user-attachments/assets/349ba5b2-44f0-4f74-980c-5696a9e9c4f7" />
 
 `echo` 명령어와 리다이렉션 `>`를 사용하여 `hello.txt` 파일에 내용을 작성했다.  
 `cat` 명령어로 파일 내용을 확인했다.
@@ -119,22 +85,11 @@ Hello World
 
 ### 3-7. 파일 복사
 
-```bash
-$ cp hello.txt hello_cp.txt
-$ cat hello_cp.txt
-Hello World
-```
+<img width="1174" height="96" alt="image" src="https://github.com/user-attachments/assets/f3c9abd7-6fc8-4ad0-96af-dfeeb20f721c" />
 
 `cp` 명령어를 사용하여 `hello.txt` 파일을 `hello_cp.txt`로 복사했다.
 
-```bash
-$ ls -la
-total 16
-drwxr-xr-x 2 namnam namnam 4096 Jul 28 14:18 .
-drwxr-xr-x 3 namnam namnam 4096 Jul 28 14:09 ..
--rw-r--r-- 1 namnam namnam   12 Jul 28 14:17 hello.txt
--rw-r--r-- 1 namnam namnam   12 Jul 28 14:18 hello_cp.txt
-```
+<img width="1162" height="196" alt="image" src="https://github.com/user-attachments/assets/afb7d359-744b-46cc-b234-9c595f1903cc" />
 
 복사된 파일이 정상적으로 생성된 것을 확인했다.
 
@@ -142,15 +97,7 @@ drwxr-xr-x 3 namnam namnam 4096 Jul 28 14:09 ..
 
 ### 3-8. 파일 이름 변경
 
-```bash
-$ mv hello_cp.txt hello_copy.txt
-$ ls -la
-total 16
-drwxr-xr-x 2 namnam namnam 4096 Jul 28 14:19 .
-drwxr-xr-x 3 namnam namnam 4096 Jul 28 14:09 ..
--rw-r--r-- 1 namnam namnam   12 Jul 28 14:17 hello.txt
--rw-r--r-- 1 namnam namnam   12 Jul 28 14:18 hello_copy.txt
-```
+<img width="1170" height="232" alt="image" src="https://github.com/user-attachments/assets/717ea645-dcc9-48f9-be43-796e1e6c195a" />
 
 `mv` 명령어를 사용하여 `hello_cp.txt` 파일 이름을 `hello_copy.txt`로 변경했다.
 
@@ -158,14 +105,7 @@ drwxr-xr-x 3 namnam namnam 4096 Jul 28 14:09 ..
 
 ### 3-9. 파일 삭제
 
-```bash
-$ rm hello_copy.txt
-$ ls -la
-total 12
-drwxr-xr-x 2 namnam namnam 4096 Jul 28 14:19 .
-drwxr-xr-x 3 namnam namnam 4096 Jul 28 14:09 ..
--rw-r--r-- 1 namnam namnam   12 Jul 28 14:17 hello.txt
-```
+<img width="1170" height="196" alt="스크린샷 2026-07-28 173555" src="https://github.com/user-attachments/assets/203a38aa-0e10-40bd-af30-60f09e7d35ac" />
 
 `rm` 명령어를 사용하여 `hello_copy.txt` 파일을 삭제했다.  
 최종적으로 `hello.txt` 파일만 남아 있는 것을 확인했다.
@@ -190,8 +130,4 @@ drwxr-xr-x 3 namnam namnam 4096 Jul 28 14:09 ..
 
 ---
 
-## 5. 스크린샷
-
-터미널 기본 조작 실행 화면이다.
-<img width="1426" height="680" alt="스크린샷 2026-07-28 141237" src="https://github.com/user-attachments/assets/46625b0b-9ea5-4fe3-ae48-3ad5b12d4bc4" />
-<img width="1414" height="1240" alt="스크린샷 2026-07-28 142013" src="https://github.com/user-attachments/assets/93ecacee-f94e-45aa-84ba-960fc249318a" />
+## 5. 

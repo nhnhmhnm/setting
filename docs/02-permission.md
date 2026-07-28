@@ -15,7 +15,7 @@
 
 `ls -l` 명령어로 파일의 권한을 확인했다.
 
-
+---
 
 ### 2-2. 권한 변경
 
@@ -30,3 +30,5 @@
 <img width="1418" height="196" alt="image" src="https://github.com/user-attachments/assets/81e075f6-aff0-415c-bc73-ede8406aa6f8" />
 
 쓰기 권한을 다시 부여해 파일을 수정했다.
+
+---

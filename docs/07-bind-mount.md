@@ -1,5 +1,13 @@
 ## 7. 바인드 마운트 반영
 
+| 명령어 | 역할 |
+| --- | --- |
+| docker compose up -d | 실행 |
+| docker compose ps | 상태 확인 |
+| docker compose logs | 로그 확인 |
+| docker compose down | 종료 및 삭제 |
+| docker compose restart | 다시 시작 |
+
 ---
 
 ### 7-1. 바인드 마운트 컨테이너 실행

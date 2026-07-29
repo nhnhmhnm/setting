@@ -17,3 +17,11 @@
 이제 "cat ~/.ssh/id_ed25519.pub" 명령어를 사용해 공개 키를 복사해 Github에 등록한다.
 
 ---
+
+### 9-3. 연결 테스트
+
+<img width="1392" height="480" alt="image" src="https://github.com/user-attachments/assets/7866f9ff-c979-47c6-ba7f-ec5e435800ea" />
+
+연결이 완료됐다.
+
+---

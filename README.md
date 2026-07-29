@@ -14,7 +14,7 @@
 
 - [x] [터미널 기본 조작 및 폴더 구성](docs/01-terminal.md)
 - [x] [권한 변경 실습](docs/02-permission.md)
-- [x] [Docker 설치/점검](03-docker-install.md)
+- [x] [Docker 설치/점검](docs/03-docker-install.md)
 - [x] [hello-world 실행]
 - [x] [Dockerfile 빌드/실행]
 - [x] [포트 매핑 접속(2회)]

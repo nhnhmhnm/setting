@@ -31,4 +31,9 @@
 
 쓰기 권한을 다시 부여해 파일을 수정했다.
 
+<img width="1420" height="34" alt="image" src="https://github.com/user-attachments/assets/1a5aae3b-339f-4a04-8e6f-202169c6642f" />
+
+숫자로도 권한을 부여할 수 있다.  
+앞에서부터 소유자, 그룹, 기타 사용자에게 읽기(4) + 쓰기(2) + 실행(1)의 권한을 부여한다.  
+
 ---
